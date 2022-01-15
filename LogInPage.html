@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" > -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script> -->
+
+    
+    <!-- <link rel="stylesheet" href="https://unpkg.com/primitive-ui/dist/css/main.css" > -->
+    
+    <title>Log In Page</title>
+</head>
+
+<body dir="rtl">
+    <div class="container">
+        <h1>ברוך הבא לאתר הקורסים!</h1>
+        <br><br>
+        <form id="logInForm" action="CoursePage.html" onsubmit="return logIn();">
+            <div class="center">
+                <table>
+                    <tr>
+                        <td>שם משתמש</td>
+                        <td><input type="text" id="userName"  ></td>
+                    </tr>
+
+                    <br>
+
+                    <tr>
+                        <td>סיסמה</td>
+                        <td><input type="password" id="userPass"  ></td>
+                        
+                    </tr>
+                </table>
+            </div>
+
+            <br><br>
+
+            <div class="text-center">
+
+                <!-- <input type="button" id="btnLogIn" value="כניסה" onclick="logIn()"> -->
+                <button id="btnLogIn" >כניסה</button>
+                <br>
+                <a href="RegForm.html">אין לך חשבון סטודנט? הירשם</a>
+                
+            </div>    
+
+        </form>
+    </div>
+    <script src="main.js"></script>
+
+    
+</body>
+</html>
